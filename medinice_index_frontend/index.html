@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicine Information</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+     <div id="loginForm" style="display: none;">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+      </div>
+    </div>
+    <h1>Medicine Information</h1>
+    <div>
+      <input type="text" id="searchInput" placeholder="Search...">
+      <button onclick="searchMedicine()">Search</button>
+    </div>
+    
+    <table id="medicineTable">
+      <thead>
+        
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Generic Name</th>
+          <th>Manufacturer</th>
+          <th>Description</th>
+          <th>Price</th>
+          <th>Batch Number</th>
+          <th>Location</th>
+          <th>Other Details</th>
+          <th>Action</th>
+        </tr>
+       
+      </thead>
+      <tbody id="medicineBody">
+        <!-- Medicine information will be inserted here -->
+      </tbody>
+      <tfoot>
+        <tr id="insertRow" style="display: none;">
+            <td colspan="10" class="add-medicine-row">
+              <button id="insertButton" onclick="insertMedicine()">+</button>
+            </td>
+          </tr>
+
+      </tfoot>
+    </table>
+    
+  <script src="scripts.js"></script>
+</body>
+</html>
