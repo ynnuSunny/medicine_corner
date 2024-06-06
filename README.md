@@ -5,6 +5,8 @@ This project is a simple web application designed to display medicine informatio
 ## Features
 
 - Display a list of medicines
+- Search my name and Generic Name
+- Insert medicines (available for logged-in users only)
 - Edit and delete medicine entries (available for logged-in users only)
 - User authentication
 
