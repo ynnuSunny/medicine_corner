@@ -21,7 +21,7 @@ This project is a simple web application designed to display medicine informatio
 
     ```bash
     git clone git@github.com:ynnuSunny/medicine_corner.git
-    cd <your-repo-directory>
+    cd medicine_corner
     ```
 
 
@@ -36,8 +36,12 @@ This project is a simple web application designed to display medicine informatio
     ```bash
     source myenv/bin/activate
     ```
+3. **GO inside medicine_index_backend**
 
-3. **Install the dependencies:**
+    ```bash
+   cd medicine_index_backend
+    ```
+4. **Install the dependencies:**
 
     ```bash
     pip install -r requirements.txt
@@ -50,8 +54,6 @@ This project is a simple web application designed to display medicine informatio
 1. **Run the backend server (Django):**
 
     ```bash
-    python manage.py makemigrations
-    python manage.py migrate
     python manage.py runserver
     ```
 
@@ -61,6 +63,11 @@ This project is a simple web application designed to display medicine informatio
 
     ```bash
     open index.html
+    ```
+### Login Credential
+      ```bash
+    username: sunny
+    password: testPass123
     ```
 
     Or you can simply double-click on the `index.html` file to open it in your default web browser.
