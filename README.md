@@ -64,11 +64,13 @@ This project is a simple web application designed to display medicine informatio
     ```bash
     open index.html
     ```
+    Or you can simply double-click on the `index.html` file to open it in your default web browser.
+   
 ### Login Credential
-      ```bash
+    ```bash
     username: sunny
     password: testPass123
     ```
 
-    Or you can simply double-click on the `index.html` file to open it in your default web browser.
+    
 
